@@ -11,7 +11,7 @@
 ### Performance Analysis
 
 * The assembly version consistently outperforms the C version, achieving significant speedup across all input sizes.
-* However, the speedup decreases as the input size grows.
+* However, the speedup decreases as the input size grows because larger inputs put more pressure on the memory.
 
 ## Correctness Checks
 
