@@ -8,6 +8,11 @@
 | 2^24       | 0.098933 s    | 0.027433 s           | 3.61x   |
 | 2^28       | 1.736133 s    | 0.608100 s           | 2.86x   |
 
+### Performance Analysis
+
+* The assembly version consistently outperforms the C version, achieving significant speedup across all input sizes.
+* However, the speedup decreases as the input size grows.
+
 ## Correctness Checks
 
 ### 2^20
