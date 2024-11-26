@@ -21,7 +21,7 @@ int is_approximately_equal(float a, float b) {
 }
 
 int main() {
-    const int sizes[] = {1 << 20, 1 << 24, 1 << 29};
+    const int sizes[] = {1 << 20, 1 << 24, 1 << 28};
     const int num_runs = 30;
     
     // Initialize random seed
